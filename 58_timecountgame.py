@@ -1,0 +1,11 @@
+import time
+a1=time.perf_counter()
+time.sleep(1)
+b1=time.perf_counter()
+time.sleep(1)
+c1=time.perf_counter()
+time.sleep(1)
+a2=time.perf_counter()
+b2=time.perf_counter()
+c2=time.perf_counter()
+print(a2-a1,b2-b1,c2-c1,b1-a1,a1)

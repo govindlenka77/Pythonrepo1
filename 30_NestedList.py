@@ -1,0 +1,19 @@
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+c=list(map(int,input().split()))
+d=[a,b,c]
+e=[tuple(a),tuple(b),tuple(c)]
+print(d)
+print(e)
+l=min(d[0])
+m=max(d[0])
+for i in d:
+    #print(i)
+    p=min(i)
+    q=max(i)
+    if(p<l):
+        l=p
+    if(q>m):
+        m=q
+print(l)
+print(m)

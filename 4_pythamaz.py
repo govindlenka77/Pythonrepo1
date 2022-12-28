@@ -1,0 +1,1 @@
+print("python\tis\tamazing")

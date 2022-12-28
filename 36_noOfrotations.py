@@ -1,0 +1,9 @@
+n=input()
+m=input()
+c=0
+while(n!=m):
+    l=n[0]
+    n=n[1:]
+    n+=l
+    c+=1
+print(c)

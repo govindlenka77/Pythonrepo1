@@ -1,0 +1,12 @@
+x={
+    "a":"adi",
+    "b":"bobby",
+    "c":"cat",
+}
+y={
+    1:2,
+    2:3,
+}
+print(x["c"])
+print(y)
+print(id(y))
