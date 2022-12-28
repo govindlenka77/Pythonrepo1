@@ -1,0 +1,23 @@
+import numpy as np
+'''
+a=np.linspace(1,2,10)
+print(a)
+print(a.max())
+print(a.min())
+print(a.size)
+print(a.sum())
+'''
+b=np.array([((1,2),(3,4),(4,5)),((6,7),(8,9),(10,11)),((1,2),(3,4),(4,5)),((6,7),(8,9),(10,11))])
+print(b)
+print(b.ndim,"---------")
+print(b.shape)
+a=[[1,2,3,4,5,6],[2,3,4,6,6]]
+print(a[0][3])
+'''
+c=np.array([1,2,3])
+print(";;;;")
+print(b*c)
+print(a.dtype)
+print(b.shape)
+print(b.size)
+print(b.reshape(6,2))'''

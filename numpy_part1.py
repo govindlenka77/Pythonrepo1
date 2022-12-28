@@ -1,0 +1,22 @@
+import numpy as np
+
+list1=np.array([[1,2,3],[4,5,6],[7,8,9],[1,2,4]])
+list2=np.array([4,5,6,"tty"])
+print(list1.ndim)
+print(list2.dtype)
+print(list2.size)
+print(list1.shape)
+print(list2.itemsize)
+print(list1.itemsize)
+print(list1.item(1,2))
+print(list1.reshape(4,3))
+list3=np.array([[[1,2],[2,3]],[[4,5],[6,7]]])
+print(list3.ndim)
+print(list3)
+print(list3.shape)
+print(list3.reshape(1,2,4))
+list4=np.arange(20).reshape(2,5,2)
+
+print(list4[1,:,0])
+print(list1[0,3])
+print(list4)
