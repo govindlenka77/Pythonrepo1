@@ -1,0 +1,8 @@
+---
+- name: run python script
+  hosts: all
+  tasks:
+    - name: run 22_cars.py script
+      ansible.builtin.script:
+        executable: python3
+        
